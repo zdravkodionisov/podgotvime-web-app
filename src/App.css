@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 620px;
+  text-align: center;
+  padding: 40px 28px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 60px rgba(30, 58, 138, 0.15);
+}
+
+.logo-img {
+  width: 260px;
+  max-width: 80%;
+  margin-bottom: 22px;
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #1e293b;
+  margin: 0 auto 34px;
+}
+
+.start-button {
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  padding: 16px 34px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.start-button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .hero-card {
+    padding: 32px 20px;
+  }
+
+  .logo-img {
+    width: 210px;
+  }
+
+  .hero-text {
+    font-size: 19px;
+  }
+
+  .start-button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+
+.auth-page {
+  min-height: 100vh;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  width: 700px;
+  max-width: 95%;
+
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+  border-radius: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-card h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.auth-card button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.student-page {
+  min-height: 100vh;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.student-card {
+  background: rgba(255,255,255,0.85);
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+}
