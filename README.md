@@ -27,12 +27,13 @@
 - CSS
 - Fetch API
 
+## Използвани библиотеки:
+- React Router
+- React Icons
+
 ## Стартиране на проекта
 
 ```bash
 npm install
 npm run dev
 
-##Използвани библиотеки:
-- React Router
-- React Icons
