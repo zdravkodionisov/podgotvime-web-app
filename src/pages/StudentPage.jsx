@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import { FaGraduationCap, FaChartLine, FaCalendarCheck } from 'react-icons/fa'
+
 
 function StudentPage() {
   const navigate = useNavigate()
@@ -196,17 +198,20 @@ function StudentPage() {
         </header>
 
         <section className="stats-row">
-          <div className="stat-card">
+         <div className="stat-card">
+            <FaGraduationCap className="stat-icon" />
             <span>Клас</span>
             <strong>7</strong>
           </div>
 
           <div className="stat-card">
+            <FaCalendarCheck className="stat-icon" />
             <span>Активност</span>
             <strong>7 дни</strong>
           </div>
 
           <div className="stat-card">
+            <FaChartLine className="stat-icon" />
             <span>Напредък</span>
             <strong>28%</strong>
           </div>

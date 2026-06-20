@@ -32,3 +32,7 @@
 ```bash
 npm install
 npm run dev
+
+##Използвани библиотеки:
+- React Router
+- React Icons

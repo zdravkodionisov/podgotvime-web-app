@@ -466,3 +466,9 @@ body,
   background: #fee2e2;
   color: #991b1b;
 }
+
+.stat-icon {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+}
